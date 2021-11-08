@@ -1,0 +1,55 @@
+//Access Strings
+
+
+using System;
+
+namespace nandu {
+    class Poly
+    {
+        public void Hello()
+        {
+            Console.WriteLine("Hello");
+        }
+
+        public void Hello(int a)
+        {
+            Console.WriteLine(a);
+        }
+
+        public void Hello(string str)
+        {
+            Console.WriteLine(str);
+        }
+
+        public int Hello(int k,int j)
+        {
+            return k+j;
+        }
+
+        public string Hello(string fname,string lname)
+        {
+            return fname + " " + lname;
+        }
+    }
+    class strAcess
+    {
+        public static void Main()
+        {
+            Poly obj = new Poly();
+            obj.Hello();
+            //string full=obj.Hello("nandu","yadav");
+
+            //Console.WriteLine(full);
+
+            int full = obj.Hello(5,6);
+
+            Console.WriteLine(full);
+
+        }
+
+    }
+
+
+
+
+}

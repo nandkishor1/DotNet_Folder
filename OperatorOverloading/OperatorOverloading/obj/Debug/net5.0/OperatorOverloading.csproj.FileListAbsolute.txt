@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\bin\Debug\net5.0\OperatorOverloading.exe
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\bin\Debug\net5.0\OperatorOverloading.deps.json
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\bin\Debug\net5.0\OperatorOverloading.runtimeconfig.json
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\bin\Debug\net5.0\OperatorOverloading.runtimeconfig.dev.json
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\bin\Debug\net5.0\OperatorOverloading.dll
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\bin\Debug\net5.0\ref\OperatorOverloading.dll
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\bin\Debug\net5.0\OperatorOverloading.pdb
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\obj\Debug\net5.0\OperatorOverloading.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\obj\Debug\net5.0\OperatorOverloading.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\obj\Debug\net5.0\OperatorOverloading.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\obj\Debug\net5.0\OperatorOverloading.AssemblyInfo.cs
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\obj\Debug\net5.0\OperatorOverloading.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\obj\Debug\net5.0\OperatorOverloading.dll
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\obj\Debug\net5.0\ref\OperatorOverloading.dll
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\obj\Debug\net5.0\OperatorOverloading.pdb
+E:\My Projects\DotNet\OperatorOverloading\OperatorOverloading\obj\Debug\net5.0\OperatorOverloading.genruntimeconfig.cache

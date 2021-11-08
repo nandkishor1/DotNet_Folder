@@ -1,0 +1,15 @@
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\bin\Debug\net5.0\Method days2 part2.exe
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\bin\Debug\net5.0\Method days2 part2.deps.json
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\bin\Debug\net5.0\Method days2 part2.runtimeconfig.json
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\bin\Debug\net5.0\Method days2 part2.runtimeconfig.dev.json
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\bin\Debug\net5.0\Method days2 part2.dll
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\bin\Debug\net5.0\ref\Method days2 part2.dll
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\bin\Debug\net5.0\Method days2 part2.pdb
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\obj\Debug\net5.0\Method days2 part2.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\obj\Debug\net5.0\Method days2 part2.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\obj\Debug\net5.0\Method days2 part2.AssemblyInfo.cs
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\obj\Debug\net5.0\Method days2 part2.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\obj\Debug\net5.0\Method days2 part2.dll
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\obj\Debug\net5.0\ref\Method days2 part2.dll
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\obj\Debug\net5.0\Method days2 part2.pdb
+E:\My Projects\DotNet\Method days2 part2\Method days2 part2\obj\Debug\net5.0\Method days2 part2.genruntimeconfig.cache

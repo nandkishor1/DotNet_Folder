@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\StructureProject\StructureProject\obj\Debug\net5.0\StructureProject.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\StructureProject\StructureProject\obj\Debug\net5.0\StructureProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\StructureProject\StructureProject\obj\Debug\net5.0\StructureProject.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\StructureProject\StructureProject\obj\Debug\net5.0\StructureProject.AssemblyInfo.cs
+E:\My Projects\DotNet\StructureProject\StructureProject\obj\Debug\net5.0\StructureProject.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\StructureProject\StructureProject\bin\Debug\net5.0\StructureProject.exe
+E:\My Projects\DotNet\StructureProject\StructureProject\bin\Debug\net5.0\StructureProject.deps.json
+E:\My Projects\DotNet\StructureProject\StructureProject\bin\Debug\net5.0\StructureProject.runtimeconfig.json
+E:\My Projects\DotNet\StructureProject\StructureProject\bin\Debug\net5.0\StructureProject.runtimeconfig.dev.json
+E:\My Projects\DotNet\StructureProject\StructureProject\bin\Debug\net5.0\StructureProject.dll
+E:\My Projects\DotNet\StructureProject\StructureProject\bin\Debug\net5.0\ref\StructureProject.dll
+E:\My Projects\DotNet\StructureProject\StructureProject\bin\Debug\net5.0\StructureProject.pdb
+E:\My Projects\DotNet\StructureProject\StructureProject\obj\Debug\net5.0\StructureProject.dll
+E:\My Projects\DotNet\StructureProject\StructureProject\obj\Debug\net5.0\ref\StructureProject.dll
+E:\My Projects\DotNet\StructureProject\StructureProject\obj\Debug\net5.0\StructureProject.pdb
+E:\My Projects\DotNet\StructureProject\StructureProject\obj\Debug\net5.0\StructureProject.genruntimeconfig.cache

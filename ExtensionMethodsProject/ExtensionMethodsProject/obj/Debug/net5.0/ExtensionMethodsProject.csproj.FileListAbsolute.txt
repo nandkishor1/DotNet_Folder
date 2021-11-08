@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\bin\Debug\net5.0\ExtensionMethodsProject.exe
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\bin\Debug\net5.0\ExtensionMethodsProject.deps.json
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\bin\Debug\net5.0\ExtensionMethodsProject.runtimeconfig.json
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\bin\Debug\net5.0\ExtensionMethodsProject.runtimeconfig.dev.json
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\bin\Debug\net5.0\ExtensionMethodsProject.dll
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\bin\Debug\net5.0\ref\ExtensionMethodsProject.dll
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\bin\Debug\net5.0\ExtensionMethodsProject.pdb
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\obj\Debug\net5.0\ExtensionMethodsProject.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\obj\Debug\net5.0\ExtensionMethodsProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\obj\Debug\net5.0\ExtensionMethodsProject.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\obj\Debug\net5.0\ExtensionMethodsProject.AssemblyInfo.cs
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\obj\Debug\net5.0\ExtensionMethodsProject.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\obj\Debug\net5.0\ExtensionMethodsProject.dll
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\obj\Debug\net5.0\ref\ExtensionMethodsProject.dll
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\obj\Debug\net5.0\ExtensionMethodsProject.pdb
+E:\My Projects\DotNet\ExtensionMethodsProject\ExtensionMethodsProject\obj\Debug\net5.0\ExtensionMethodsProject.genruntimeconfig.cache

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ADO_DotNet_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="People">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="FName" Type="varchar" MaxLength="100" />
+    <Property Name="LName" Type="varchar" MaxLength="100" />
+    <Property Name="DName" Type="varchar" MaxLength="100" />
+    <Property Name="B_IsDeleted" Type="bit" />
+  </EntityType>
+  <EntityType Name="standardList">
+    <Key>
+      <PropertyRef Name="StandardID" />
+    </Key>
+    <Property Name="StandardID" Type="int" Nullable="false" />
+    <Property Name="StandardName" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="studentList">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="int" Nullable="false" />
+    <Property Name="StudentName" Type="varchar" MaxLength="100" />
+    <Property Name="StandardID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_Hobies">
+    <Key>
+      <PropertyRef Name="PID" />
+    </Key>
+    <Property Name="PID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UID" Type="int" />
+    <Property Name="Hoby" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <Function Name="prc_GetData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="prc_GetPeople" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="prc_GetPeopleByDepartment" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DName" Type="varchar" Mode="In" />
+    <Parameter Name="lastName" Type="varchar" Mode="In" />
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="prc_InsertData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="First_Name" Type="varchar" Mode="In" />
+    <Parameter Name="Last_Name" Type="varchar" Mode="In" />
+    <Parameter Name="Department" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="prc_InsertHobbies" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="prc_UpdateData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="LName" Type="varchar" Mode="In" />
+    <Parameter Name="DName" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="ADO_DotNet_DBModelStoreContainer">
+    <EntitySet Name="People" EntityType="Self.People" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="standardList" EntityType="Self.standardList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="studentList" EntityType="Self.studentList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Hobies" EntityType="Self.tbl_Hobies" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

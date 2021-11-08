@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\IndexerProject\IndexerProject\bin\Debug\net5.0\IndexerProject.exe
+E:\My Projects\DotNet\IndexerProject\IndexerProject\bin\Debug\net5.0\IndexerProject.deps.json
+E:\My Projects\DotNet\IndexerProject\IndexerProject\bin\Debug\net5.0\IndexerProject.runtimeconfig.json
+E:\My Projects\DotNet\IndexerProject\IndexerProject\bin\Debug\net5.0\IndexerProject.runtimeconfig.dev.json
+E:\My Projects\DotNet\IndexerProject\IndexerProject\bin\Debug\net5.0\IndexerProject.dll
+E:\My Projects\DotNet\IndexerProject\IndexerProject\bin\Debug\net5.0\ref\IndexerProject.dll
+E:\My Projects\DotNet\IndexerProject\IndexerProject\bin\Debug\net5.0\IndexerProject.pdb
+E:\My Projects\DotNet\IndexerProject\IndexerProject\obj\Debug\net5.0\IndexerProject.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\IndexerProject\IndexerProject\obj\Debug\net5.0\IndexerProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\IndexerProject\IndexerProject\obj\Debug\net5.0\IndexerProject.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\IndexerProject\IndexerProject\obj\Debug\net5.0\IndexerProject.AssemblyInfo.cs
+E:\My Projects\DotNet\IndexerProject\IndexerProject\obj\Debug\net5.0\IndexerProject.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\IndexerProject\IndexerProject\obj\Debug\net5.0\IndexerProject.dll
+E:\My Projects\DotNet\IndexerProject\IndexerProject\obj\Debug\net5.0\ref\IndexerProject.dll
+E:\My Projects\DotNet\IndexerProject\IndexerProject\obj\Debug\net5.0\IndexerProject.pdb
+E:\My Projects\DotNet\IndexerProject\IndexerProject\obj\Debug\net5.0\IndexerProject.genruntimeconfig.cache

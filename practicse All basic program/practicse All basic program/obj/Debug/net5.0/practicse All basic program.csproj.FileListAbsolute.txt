@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\bin\Debug\net5.0\practicse All basic program.exe
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\bin\Debug\net5.0\practicse All basic program.deps.json
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\bin\Debug\net5.0\practicse All basic program.runtimeconfig.json
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\bin\Debug\net5.0\practicse All basic program.runtimeconfig.dev.json
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\bin\Debug\net5.0\practicse All basic program.dll
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\bin\Debug\net5.0\ref\practicse All basic program.dll
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\bin\Debug\net5.0\practicse All basic program.pdb
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\obj\Debug\net5.0\practicse All basic program.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\obj\Debug\net5.0\practicse All basic program.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\obj\Debug\net5.0\practicse All basic program.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\obj\Debug\net5.0\practicse All basic program.AssemblyInfo.cs
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\obj\Debug\net5.0\practicse All basic program.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\obj\Debug\net5.0\practicse All basic program.dll
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\obj\Debug\net5.0\ref\practicse All basic program.dll
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\obj\Debug\net5.0\practicse All basic program.pdb
+E:\My Projects\DotNet\practicse All basic program\practicse All basic program\obj\Debug\net5.0\practicse All basic program.genruntimeconfig.cache

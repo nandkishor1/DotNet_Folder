@@ -1,0 +1,10 @@
+E:\My Projects\DotNet\WindowsProject\WindowsProject\bin\Debug\WindowsProject.exe.config
+E:\My Projects\DotNet\WindowsProject\WindowsProject\bin\Debug\WindowsProject.exe
+E:\My Projects\DotNet\WindowsProject\WindowsProject\bin\Debug\WindowsProject.pdb
+E:\My Projects\DotNet\WindowsProject\WindowsProject\obj\Debug\WindowsProject.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\WindowsProject\WindowsProject\obj\Debug\WindowsProject.Form1.resources
+E:\My Projects\DotNet\WindowsProject\WindowsProject\obj\Debug\WindowsProject.Properties.Resources.resources
+E:\My Projects\DotNet\WindowsProject\WindowsProject\obj\Debug\WindowsProject.csproj.GenerateResource.cache
+E:\My Projects\DotNet\WindowsProject\WindowsProject\obj\Debug\WindowsProject.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\WindowsProject\WindowsProject\obj\Debug\WindowsProject.exe
+E:\My Projects\DotNet\WindowsProject\WindowsProject\obj\Debug\WindowsProject.pdb

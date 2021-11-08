@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\ThreadProject\ThreadProject\bin\Debug\net5.0\ThreadProject.exe
+E:\My Projects\DotNet\ThreadProject\ThreadProject\bin\Debug\net5.0\ThreadProject.deps.json
+E:\My Projects\DotNet\ThreadProject\ThreadProject\bin\Debug\net5.0\ThreadProject.runtimeconfig.json
+E:\My Projects\DotNet\ThreadProject\ThreadProject\bin\Debug\net5.0\ThreadProject.runtimeconfig.dev.json
+E:\My Projects\DotNet\ThreadProject\ThreadProject\bin\Debug\net5.0\ThreadProject.dll
+E:\My Projects\DotNet\ThreadProject\ThreadProject\bin\Debug\net5.0\ref\ThreadProject.dll
+E:\My Projects\DotNet\ThreadProject\ThreadProject\bin\Debug\net5.0\ThreadProject.pdb
+E:\My Projects\DotNet\ThreadProject\ThreadProject\obj\Debug\net5.0\ThreadProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\ThreadProject\ThreadProject\obj\Debug\net5.0\ThreadProject.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\ThreadProject\ThreadProject\obj\Debug\net5.0\ThreadProject.AssemblyInfo.cs
+E:\My Projects\DotNet\ThreadProject\ThreadProject\obj\Debug\net5.0\ThreadProject.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\ThreadProject\ThreadProject\obj\Debug\net5.0\ThreadProject.dll
+E:\My Projects\DotNet\ThreadProject\ThreadProject\obj\Debug\net5.0\ref\ThreadProject.dll
+E:\My Projects\DotNet\ThreadProject\ThreadProject\obj\Debug\net5.0\ThreadProject.pdb
+E:\My Projects\DotNet\ThreadProject\ThreadProject\obj\Debug\net5.0\ThreadProject.genruntimeconfig.cache
+E:\My Projects\DotNet\ThreadProject\ThreadProject\obj\Debug\net5.0\ThreadProject.csproj.AssemblyReference.cache

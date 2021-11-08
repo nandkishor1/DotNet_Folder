@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.exe
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.deps.json
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.runtimeconfig.json
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.runtimeconfig.dev.json
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.dll
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\bin\Debug\net5.0\ref\ThreadingDemo.dll
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.pdb
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.AssemblyInfo.cs
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.dll
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\obj\Debug\net5.0\ref\ThreadingDemo.dll
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.pdb
+E:\My Projects\DotNet\ThreadingDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.genruntimeconfig.cache

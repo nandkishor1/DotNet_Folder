@@ -1,0 +1,11 @@
+E:\My Projects\DotNet\class days4\class days4\bin\Debug\net5.0\class days4.deps.json
+E:\My Projects\DotNet\class days4\class days4\bin\Debug\net5.0\class days4.dll
+E:\My Projects\DotNet\class days4\class days4\bin\Debug\net5.0\ref\class days4.dll
+E:\My Projects\DotNet\class days4\class days4\bin\Debug\net5.0\class days4.pdb
+E:\My Projects\DotNet\class days4\class days4\obj\Debug\net5.0\class days4.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\class days4\class days4\obj\Debug\net5.0\class days4.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\class days4\class days4\obj\Debug\net5.0\class days4.AssemblyInfo.cs
+E:\My Projects\DotNet\class days4\class days4\obj\Debug\net5.0\class days4.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\class days4\class days4\obj\Debug\net5.0\class days4.dll
+E:\My Projects\DotNet\class days4\class days4\obj\Debug\net5.0\ref\class days4.dll
+E:\My Projects\DotNet\class days4\class days4\obj\Debug\net5.0\class days4.pdb

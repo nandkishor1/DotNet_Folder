@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ADO_DotNet_DBModelStoreContainer" CdmEntityContainer="ADO_DotNet_DBEntities">
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="ADO_DotNet_DBModel.Person">
+        <MappingFragment StoreEntitySet="People">
+          <ScalarProperty Name="B_IsDeleted" ColumnName="B_IsDeleted" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="DName" ColumnName="DName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Hobies">
+      <EntityTypeMapping TypeName="ADO_DotNet_DBModel.tbl_Hobies">
+        <MappingFragment StoreEntitySet="tbl_Hobies">
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="UID" ColumnName="UID" />
+          <ScalarProperty Name="Hoby" ColumnName="Hoby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="prc_GetData" FunctionName="ADO_DotNet_DBModel.Store.prc_GetData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ADO_DotNet_DBModel.prc_GetData_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="DName" ColumnName="DName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prc_GetPeople" FunctionName="ADO_DotNet_DBModel.Store.prc_GetPeople">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ADO_DotNet_DBModel.prc_GetPeople_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="DName" ColumnName="DName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prc_GetPeopleByDepartment" FunctionName="ADO_DotNet_DBModel.Store.prc_GetPeopleByDepartment">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ADO_DotNet_DBModel.prc_GetPeopleByDepartment_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="DName" ColumnName="DName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prc_InsertData" FunctionName="ADO_DotNet_DBModel.Store.prc_InsertData" />
+    <FunctionImportMapping FunctionImportName="prc_InsertHobbies" FunctionName="ADO_DotNet_DBModel.Store.prc_InsertHobbies" />
+    <FunctionImportMapping FunctionImportName="prc_UpdateData" FunctionName="ADO_DotNet_DBModel.Store.prc_UpdateData" />
+    <EntitySetMapping Name="standardLists">
+      <EntityTypeMapping TypeName="ADO_DotNet_DBModel.standardList">
+        <MappingFragment StoreEntitySet="standardList">
+          <ScalarProperty Name="StandardName" ColumnName="StandardName" />
+          <ScalarProperty Name="StandardID" ColumnName="StandardID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="studentLists">
+      <EntityTypeMapping TypeName="ADO_DotNet_DBModel.studentList">
+        <MappingFragment StoreEntitySet="studentList">
+          <ScalarProperty Name="StandardID" ColumnName="StandardID" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

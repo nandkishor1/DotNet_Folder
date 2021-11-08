@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\bin\Debug\net5.0\PropertiesProject.exe
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\bin\Debug\net5.0\PropertiesProject.deps.json
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\bin\Debug\net5.0\PropertiesProject.runtimeconfig.json
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\bin\Debug\net5.0\PropertiesProject.runtimeconfig.dev.json
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\bin\Debug\net5.0\PropertiesProject.dll
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\bin\Debug\net5.0\ref\PropertiesProject.dll
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\bin\Debug\net5.0\PropertiesProject.pdb
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\obj\Debug\net5.0\PropertiesProject.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\obj\Debug\net5.0\PropertiesProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\obj\Debug\net5.0\PropertiesProject.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\obj\Debug\net5.0\PropertiesProject.AssemblyInfo.cs
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\obj\Debug\net5.0\PropertiesProject.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\obj\Debug\net5.0\PropertiesProject.dll
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\obj\Debug\net5.0\ref\PropertiesProject.dll
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\obj\Debug\net5.0\PropertiesProject.pdb
+E:\My Projects\DotNet\PropertiesProject\PropertiesProject\obj\Debug\net5.0\PropertiesProject.genruntimeconfig.cache

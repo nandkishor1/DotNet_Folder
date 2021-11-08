@@ -1,0 +1,47 @@
+using System;
+
+class GrandFather
+{
+    public int i = 5;
+
+    public void Land()
+    {
+        Console.WriteLine(i);
+    }
+}
+
+class Father:GrandFather
+{
+    protected int j = 10;
+
+    public void Car()
+    {
+        Console.WriteLine(i+j);
+    }
+
+}
+
+class GrandSon:Father
+{
+    int k = 100;
+
+    public void Nothing()
+    {
+        Console.WriteLine(k+i+j);
+    }
+}
+
+
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        GrandSon obj = new GrandSon();
+        obj.Car();
+        obj.Land();
+        obj.Nothing();
+
+        obj.i = 50;
+    }
+}

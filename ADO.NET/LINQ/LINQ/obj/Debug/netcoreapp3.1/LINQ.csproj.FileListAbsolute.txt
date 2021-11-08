@@ -1,0 +1,13 @@
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\bin\Debug\netcoreapp3.1\LINQ.exe
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\bin\Debug\netcoreapp3.1\LINQ.deps.json
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\bin\Debug\netcoreapp3.1\LINQ.runtimeconfig.json
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\bin\Debug\netcoreapp3.1\LINQ.runtimeconfig.dev.json
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\bin\Debug\netcoreapp3.1\LINQ.dll
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\bin\Debug\netcoreapp3.1\LINQ.pdb
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\obj\Debug\netcoreapp3.1\LINQ.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfo.cs
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\obj\Debug\netcoreapp3.1\LINQ.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\obj\Debug\netcoreapp3.1\LINQ.dll
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\obj\Debug\netcoreapp3.1\LINQ.pdb
+E:\My Projects\DotNet\ADO.NET\LINQ\LINQ\obj\Debug\netcoreapp3.1\LINQ.genruntimeconfig.cache

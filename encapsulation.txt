@@ -1,0 +1,44 @@
+OOPS CONCEPTS- OOPS--OBJECT ORIANTED PROGRAMMING LANGWAGE oopl and oops 
+
+
+oops is the methodology it provide some special fechers that helps to devlop the application 
+
+like abstraction and encapsulation , inheritance etc .
+
+
+  
+
+main concept of oops
+
+1. Abstrcation :  
+abstrction is all about data hiding --> 
+
+Abstrcation is the process of hiding internal implimemtaion  and offering set of services to end user .
+
+realtime --> ATM GUI , Phone Call, google pay ,phone pay etc 
+
+
+how to acchive  Abstrcation  in c#
+
+there are two type of abstraction 
+
+1. fully Abstrcation  (interface )  2.parisial Abstrcation (Abstract classs)
+
+
+
+
+2. encapsulation :- encapsulation  is the process of binding data membar (variable) and behiour (Method) into a single unit (class) called encapsulation .
+
+
+every c# class its self is the exmple of encapsulation .
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Persion
+    {

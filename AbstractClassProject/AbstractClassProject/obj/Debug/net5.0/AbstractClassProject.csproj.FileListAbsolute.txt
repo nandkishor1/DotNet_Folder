@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\bin\Debug\net5.0\AbstractClassProject.exe
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\bin\Debug\net5.0\AbstractClassProject.deps.json
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\bin\Debug\net5.0\AbstractClassProject.runtimeconfig.json
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\bin\Debug\net5.0\AbstractClassProject.runtimeconfig.dev.json
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\bin\Debug\net5.0\AbstractClassProject.dll
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\bin\Debug\net5.0\ref\AbstractClassProject.dll
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\bin\Debug\net5.0\AbstractClassProject.pdb
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\obj\Debug\net5.0\AbstractClassProject.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\obj\Debug\net5.0\AbstractClassProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\obj\Debug\net5.0\AbstractClassProject.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\obj\Debug\net5.0\AbstractClassProject.AssemblyInfo.cs
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\obj\Debug\net5.0\AbstractClassProject.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\obj\Debug\net5.0\AbstractClassProject.dll
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\obj\Debug\net5.0\ref\AbstractClassProject.dll
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\obj\Debug\net5.0\AbstractClassProject.pdb
+E:\My Projects\DotNet\AbstractClassProject\AbstractClassProject\obj\Debug\net5.0\AbstractClassProject.genruntimeconfig.cache

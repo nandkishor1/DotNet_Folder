@@ -1,0 +1,15 @@
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\bin\Debug\net5.0\StringVsStringBuilder.exe
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\bin\Debug\net5.0\StringVsStringBuilder.deps.json
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\bin\Debug\net5.0\StringVsStringBuilder.runtimeconfig.json
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\bin\Debug\net5.0\StringVsStringBuilder.runtimeconfig.dev.json
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\bin\Debug\net5.0\StringVsStringBuilder.dll
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\bin\Debug\net5.0\ref\StringVsStringBuilder.dll
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\bin\Debug\net5.0\StringVsStringBuilder.pdb
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\obj\Debug\net5.0\StringVsStringBuilder.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\obj\Debug\net5.0\StringVsStringBuilder.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\obj\Debug\net5.0\StringVsStringBuilder.AssemblyInfo.cs
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\obj\Debug\net5.0\StringVsStringBuilder.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\obj\Debug\net5.0\StringVsStringBuilder.dll
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\obj\Debug\net5.0\ref\StringVsStringBuilder.dll
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\obj\Debug\net5.0\StringVsStringBuilder.pdb
+E:\My Projects\DotNet\StringVsStringBuilder\StringVsStringBuilder\obj\Debug\net5.0\StringVsStringBuilder.genruntimeconfig.cache

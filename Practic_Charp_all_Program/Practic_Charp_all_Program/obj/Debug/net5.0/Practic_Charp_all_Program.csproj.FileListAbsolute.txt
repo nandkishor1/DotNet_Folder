@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\bin\Debug\net5.0\Practic_Charp_all_Program.exe
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\bin\Debug\net5.0\Practic_Charp_all_Program.deps.json
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\bin\Debug\net5.0\Practic_Charp_all_Program.runtimeconfig.json
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\bin\Debug\net5.0\Practic_Charp_all_Program.runtimeconfig.dev.json
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\bin\Debug\net5.0\Practic_Charp_all_Program.dll
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\bin\Debug\net5.0\ref\Practic_Charp_all_Program.dll
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\bin\Debug\net5.0\Practic_Charp_all_Program.pdb
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\obj\Debug\net5.0\Practic_Charp_all_Program.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\obj\Debug\net5.0\Practic_Charp_all_Program.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\obj\Debug\net5.0\Practic_Charp_all_Program.AssemblyInfo.cs
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\obj\Debug\net5.0\Practic_Charp_all_Program.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\obj\Debug\net5.0\Practic_Charp_all_Program.dll
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\obj\Debug\net5.0\ref\Practic_Charp_all_Program.dll
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\obj\Debug\net5.0\Practic_Charp_all_Program.pdb
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\obj\Debug\net5.0\Practic_Charp_all_Program.genruntimeconfig.cache
+E:\My Projects\DotNet\Practic_Charp_all_Program\Practic_Charp_all_Program\obj\Debug\net5.0\Practic_Charp_all_Program.csproj.AssemblyReference.cache

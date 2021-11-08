@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Keylong Operation</title>
+    <a href="">
+          <img src="images/logo.png" width="150" class="img-fluid m-4">
+        </a>
+
+
+</head>
+<body>
+
+  <!-- header -->
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+            <!-- <a href="http://keylongsystems.co.in/" class="navbar-brand text-light text-uppercase"><span class="h2 font-weight-bold">Keylong</span><span class="h1">Operation</span></a> -->
+            <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <div class="bg-light line1"></div>
+                <div class="bg-light line2"></div>
+                <div class="bg-light line3"></div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item nav-active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">About</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown m-2" data-toggle="dropdown">
+                        <a class="nav-link text-light text-uppercase font-weight-bold px-2 dropdown-toggle" href="#">Courses</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">
+                                C#.NET
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                ASP.NET
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                SQL Server
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                ASP.NET MVC
+                            </a>
+                        </div>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">Career Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class=" nav-link m-2 menu-item" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="modal fade login" id="loginModal">
+            <div class="modal-dialog login animated">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h4 class="modal-title">Login with</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="box">
+                            <div class="content">
+                                <div class="social">
+                                    <a class="circle github" href="#">
+                                        <i class="fa fa-github fa-fw"></i>
+                                    </a>
+                                    <a id="google_login" class="circle google" href="#">
+                                        <i class="fa fa-google-plus fa-fw"></i>
+                                    </a>
+                                    <a id="facebook_login" class="circle facebook" href="#">
+                                        <i class="fa fa-facebook fa-fw"></i>
+                                    </a>
+                                </div>
+                                <div class="division">
+                                    <div class="line l"></div>
+                                    <span>or</span>
+                                    <div class="line r"></div>
+                                </div>
+                                <div class="error"></div>
+                                <div class="form loginBox">
+                                    <form method="" action="" accept-charset="UTF-8">
+                                        <input id="email" class="form-control" type="text" placeholder="Email" name="email">
+                                        <input id="password" class="form-control" type="password" placeholder="Password" name="password">
+                                        <input class="btn btn-default btn-login" type="button" value="Login" onclick="loginAjax()">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="content registerBox" style="display:none;">
+                                <div class="form">
+                                    <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
+                                      <input id="fname" class="form-control" type="text" placeholder="First Name" name="fname">
+                                      <input id="lname" class="form-control" type="text" placeholder="Last Name" name="lname">
+                                      <input id="email" class="form-control" type="text" placeholder="Email" name="email">
+                                      <input id="password" class="form-control" type="password" placeholder="Password" name="password">
+                                      <input id="Mobile" class="form-control" type="text" placeholder="Mobile Number" name="mobile">
+
+                                        <input class="btn btn-default btn-register" type="button" value="Create account" name="commit">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="forgot login-footer">
+                            <span>
+                                Looking to
+                                <a href="javascript: showRegisterForm();">create an account</a>
+                                ?
+                            </span>
+                        </div>
+                        <div class="forgot register-footer" style="display:none">
+                            <span>Already have an account?</span>
+                            <a href="javascript: showLoginForm();">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </div>
+        <!-- end of navbar -->
+        <!-- banner -->
+        <div class="text-light text-md-right text-center banner">
+            <h1 class="display-4 banner-heading"> <span class="text-uppercase">Keylong Operation</span></h1>
+            <p class="lead banner-par">Start Learning Today Leading Tomorrow.</p>
+        </div>
+        <!-- end of banner -->
+    </header>
+  <!-- end of header -->
+
+  <!-- mission -->
+  <section class="p-5 mission">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-white text-center">
+        <div class="col m-4">
+          <h2 class="display-6 mb-6">Why should you choose KEYLONG OPERATION</h2>
+          <div class="underline mb-4"></div>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="row my-5">
+        <div class="col-md-4 text-center">
+          <i class="fas fa-rocket fa-5x text-danger mb-4"></i>
+          <h4 class="text-white mb-3">Superfast Support</h4>
+          <p class="text-muted">KEYLONG is known for placements in major IT companies. Major MNC's visit Keylong campus every week for interviews. You can contact our old students for feedback.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <i class="fas fa-laptop fa-5x text-danger mb-4"></i>
+            <h4 class="text-white mb-3">Learn on any device</h4>
+            <p class="text-muted">Real world project-based training by working software professionals with over 8 years experience.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <i class="fas fa-certificate fa-5x text-danger mb-4"></i>
+            <h4 class="text-white mb-3">Certification Courses</h4>
+            <p class="text-muted">Course completion certificate, Mock interviews and resume preparation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 text-center">
+          <img src="images/top14.JPG" width="350" class="img-fluid camera-img">
+        </div>
+        <div class="col-lg-7 text-white text-lg-right text-center mission-text">
+          <h1>Our Prestigious Recruiters
+</h1>
+          <p class="lead">Clients who outsource their recruitment to us for fresher and experienced hiring.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of mission -->
+
+  <!-- collection -->
+  <section class="bg-secondary py-4">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-white text-center">
+        <div class="col m-4">
+          <h3 class="display-4 mb-4">Trending Courses in Industry</h3>
+          <div class="underline mb-4"></div>
+
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img src="images/Csharp.jpeg" class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase font-weight-bold p-2 heading">C#</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img src="images/block.jpg"oll class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Blockchain
+</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img src="images/Artificial-Intelligence.jpg
+" class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Artificial Intelligence
+</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img src="images/data-science.jpg" class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Data Science</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img src="images/angular.jpg" class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Angular</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card border-0 card-shadow">
+            <img src="images/asp_net.jpg" class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="text-white text-uppercase font-weight-bold p-2 heading">ASP.NET MVC
+</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of collection -->
+
+  <!-- gallery -->
+  <section class="py-5">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-muted text-center">
+        <div class="col m-4">
+          <h1 class="display-4 mb-4">Courses</h1>
+          <h1 class="display-4 mb-4"></h1>
+          <div class="underline-dark mb-4"></div>
+          <p class="lead"></p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <ul class="list-inline text-center text-uppercase font-weight-bold my-4">
+        <li class="list-inline-item gallery-list-item active-item" data-filter="all">All<span class="mx-md-5 mx-3 text-muted">/</span>
+        </li>
+        <li class="list-inline-item gallery-list-item" data-filter="new">New<span class="mx-md-5 mx-3 text-muted">/</span>
+        </li>
+        <li class="list-inline-item gallery-list-item" data-filter="free">Free<span class="mx-md-5 mx-3 text-muted">/</span>
+        </li>
+        <li class="list-inline-item gallery-list-item" data-filter="pro">Pro
+        </li>
+      </ul>
+      <div class="container-fluid">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="filter new"><img src="images/Csharp.jpeg" width="300"></div>
+          <div class="filter free"><img src="images/img2.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img3.jpeg" width="300"></div>
+          <div class="filter new"><img src="images/img4.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img5.jpeg" width="300"></div>
+          <div class="filter free"><img src="images/img6.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img7.jpeg" width="300"></div>
+          <div class="filter free"><img src="images/img8.jpeg" width="300"></div>
+          <div class="filter new"><img src="images/img9.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img10.jpeg" width="300"></div>
+          <div class="filter free"><img src="images/img11.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img12.jpeg" width="300"></div>
+          <div class="filter new"><img src="images/img13.jpeg" width="300"></div>
+          <div class="filter free"><img src="images/img14.jpeg" width="300"></div>
+          <div class="filter new"><img src="images/img15.jpeg" width="300"></div>
+          <div class="filter pro"><img src="images/img16.jpeg" width="300"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of gallery -->
+
+  <!-- famous writers -->
+  <!-- <section class="famous-writers pb-5"> -->
+
+      <!-- end of title -->
+
+
+      <section class="colored-section" id="testimonials">
+        <h1 class="text-secondary text-uppercase font-italic common-title"><b class="tp">Trainers Profile<b></h1>
+
+
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <h2 class="testimonial-text">
+
+</h2>
+              <img class="testimonial-image" src="images/vishwajeet-trainer.jpeg" alt="vishwa-profile"></br>
+              <em class="trainer-profile">Vishwajeet Sahu</em></br>
+              <h6>.NET Trainer</h6>
+
+            </div>
+            <div class="carousel-item container-fluid">
+              <h2 class="testimonial-text"></h2>
+              <img class="testimonial-image" src="images/edu.jpg" alt="sandeep-profile"></br>
+              <em class="trainer-profile">Sandeep</em></br>
+                <h6>Java/J2EE Trainer</h6>
+
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+
+      </section>
+
+  <!-- end of famous writers -->
+
+  <!-- customers -->
+  <section class="p-5 customers">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-white text-center">
+        <div class="col m-4">
+          <h1 class="display-4 mb-4">What Student Say</h1>
+          <div class="underline mb-4"></div>
+          <p class="lead">Our Student's Feedback Is Most Important For Us.
+            Because They Are Say Who We Are And What We do Outside Of Institute</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="carousel slide" data-ride="carousel" id="customer-carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#customer-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#customer-carousel" data-slide-to="1"></li>
+              <li data-target="#customer-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center">
+                <img src="images/customer1.jpeg" class="img-fluid rounded-circle m-5" width="150">
+                <blockquote class="blockquote text-white">
+                    <p class="mb-5">Hello. I have been following your videos since last one year and just got a job in an MNC. They asked me all about SQL, GAC and DLL Hell. I have given almost 100% answer to all question just because of your video tutorials sir. I am coming from medium class family and you changed my life. I do not have enough words. God bless you sir. I promise I will do any thing for you. Hatts off to you sir. Thank you so much. You Changed my life until i live i can not forget you.</p>
+                </blockquote>
+                <h5 class="text-light text-uppercase font-weight-bold mb-3">Renuka</h5>
+                <ul class="list-inline mb-5">
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item text-center">
+                <img src="images/customer2.jpeg" class="img-fluid rounded-circle m-5" width="150">
+                <blockquote class="blockquote text-white">
+                    <p class="mb-5">I got my first job as junior software developer and really want to thank you as when I was preparing for interviews videos uploaded by you on .net technologies helped so much. I bought your Courses from your website and are very useful. Thank you sir.</p>
+                </blockquote>
+                <h5 class="text-light text-uppercase font-weight-bold mb-3">Rajesh</h5>
+                <ul class="list-inline mb-5">
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item text-center">
+                <img src="images/customer3.jpeg" class="img-fluid rounded-circle m-5" width="150">
+                <blockquote class="blockquote text-white">
+                    <p class="mb-5">Every institute says they provide placements and never do that after training, but keylong operation is the only institute who helped me get a job immediately after my training. The quality of the training is really good in keylong operation. Real time project along with the interview questions is also explained by our trainer</p>
+                </blockquote>
+                <h5 class="text-light text-uppercase font-weight-bold mb-3">Deepika</h5>
+                <ul class="list-inline mb-5">
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of customers -->
+
+
+
+
+  <!-- pricing -->
+  <section class="bg-light text-center p-5">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-muted text-center">
+        <div class="col m-4">
+          <h1 class="display-4 mb-4">Enroll Now</h1>
+          <div class="underline-dark mb-4"></div>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore, sint quisquam fugiat pariatur culpa officia. Eveniet omnis quia tempora.</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+          <div class="card card-1 text-light py-4 my-4 mx-auto">
+            <div class="card-body">
+              <h5 class="text-uppercase font-weight-bold mb-5">Free Membership</h5>
+              <h1 class="display-4"><i class="fas fa-dollar-sign"></i> 19</h1>
+              <ul class="list-unstyled">
+                <li class="font-weight-bold py-3 card-list-item">HTML5</li>
+                <li class="font-weight-bold py-3 card-list-item">CSS3</li>
+                <li class="font-weight-bold py-3 card-list-item">MySql</li>
+                <li class="font-weight-bold py-3 card-list-item border-0">Web page</li>
+              </ul>
+              <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">sign-up!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-2 text-light py-4 my-4 mx-auto">
+            <div class="card-body">
+              <h5 class="text-uppercase font-weight-bold mb-5">Unlimited Access</h5>
+              <h1 class="display-4"><i class="fas fa-dollar-sign"></i> 499</h1>
+              <ul class="list-unstyled">
+                <li class="font-weight-bold py-3 card-list-item">Full Stack Development</li>
+                <li class="font-weight-bold py-3 card-list-item">ASP.Net Development</li>
+                <li class="font-weight-bold py-3 card-list-item">Game Development</li>
+                <li class="font-weight-bold py-3 card-list-item ">Data Science</li>
+                <li class="font-weight-bold py-3 card-list-item border-0">Artificial Intelligence</li>
+              </ul>
+              <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">sign-up!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-3 text-light py-4 my-4 mx-auto">
+            <div class="card-body">
+              <h5 class="text-uppercase font-weight-bold mb-5">Annual Membership</h5>
+              <h1 class="display-4"><i class="fas fa-dollar-sign"></i> 199</h1>
+              <ul class="list-unstyled">
+                <li class="font-weight-bold py-3 card-list-item">Sql Server</li>
+                <li class="font-weight-bold py-3 card-list-item">Java/J2EEE</li>
+                <li class="font-weight-bold py-3 card-list-item">javascript</li>
+                <li class="font-weight-bold py-3 card-list-item border-0">VB.Net</li>
+              </ul>
+              <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">sign-up!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <h2 class="text-muted mb-4">Thanks for being with us!</h2>
+        <i class="fas fa-coffee fa-3x"></i>
+      </div>
+    </div>
+  </section>
+  <!-- end of pricing -->
+
+  <!-- contact -->
+  <section class="contact p-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 pb-4">
+          <h3 class="display-4 mb-5 text-white">Get In Touch</h3>
+          <form class="contact-form">
+            <div class="form-group py-4">
+              <input type="text" class="form-control my-2 p-2 input" placeholder="Name">
+              <label for="name" class="label">Name</label>
+            </div>
+            <div class="form-group py-4">
+              <input type="email" class="form-control my-2 p-2 input" placeholder="Email Address">
+              <label for="email" class="label">Email Address</label>
+            </div>
+            <div class="form-group py-4 my-4">
+              <input type="checkbox" checked>
+              <label for="check" class="text-white">Send Announcemets</label>
+            </div>
+            <button type="submit" class="btn btn-block p-2 font-weight-bold text-uppercase submit-button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of contact -->
+
+  <!-- footer -->
+  <footer class="bg-dark px-5">
+    <div class="container-fluid">
+      <div class="row text-light py-4">
+        <div class="col-lg-4 col-sm-6">
+          <h5 class="pb-3">About Us</h5>
+          <p class="small">
+              We are a specialist organization in the Web Development , Mobile application Development and digital marketing for new companies and ventures everything being equal. Our quality-fixated work culture centers around customer's prosperity and adopts a tweaked strategy, directly from venture research to execution, and past. Our broad cross-area experience makes us a perfect accomplice for the whole IT re-appropriating needs.
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <h5 class="pb-3">Visit Us</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Courses</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Projects</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Community</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Career Guide</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Trainers Profile</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <h5 class="pb-3">Need Help?</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="footer-link text-uppercase">Customer Service</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link text-uppercase">Online Chat</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link text-uppercase">Support</a>
+            </li>
+            <li>
+              <a href="#" class="text-info">keylongops@email.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <h5 class="pb-3">Stay Connected</h5>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque accusamus dolores iste praesentium assumenda est quia accusantium corrupti ipsam inventore.</p>
+          <form class="mb-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Email Address">
+              <div class="input-group-append">
+                <button type="button" class="btn bg-danger text-white text-uppercase font-weight-bold">Sign Up</button>
+              </div>
+            </div>
+          </form>
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="fab fa-facebook-square fa-2x text-primary"></i></li>
+            <li class="list-inline-item"><i class="fab fa-google-plus fa-2x text-danger"></i></li>
+            <li class="list-inline-item"><i class="fab fa-instagram fa-2x text-danger"></i></li>
+            <li class="list-inline-item"><i class="fab fa-twitter fa-2x text-info"></i></li>
+            <li class="list-inline-item"><i class="fab fa-youtube fa-2x text-danger"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center text-light border-top pt-3">
+          <p>&copy; 2021 Copyright, All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
+
+  <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

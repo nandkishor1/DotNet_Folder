@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\bin\Debug\net5.0\SchoolApplication.exe
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\bin\Debug\net5.0\SchoolApplication.deps.json
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\bin\Debug\net5.0\SchoolApplication.runtimeconfig.json
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\bin\Debug\net5.0\SchoolApplication.runtimeconfig.dev.json
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\bin\Debug\net5.0\SchoolApplication.dll
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\bin\Debug\net5.0\ref\SchoolApplication.dll
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\bin\Debug\net5.0\SchoolApplication.pdb
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\obj\Debug\net5.0\SchoolApplication.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\obj\Debug\net5.0\SchoolApplication.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\obj\Debug\net5.0\SchoolApplication.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\obj\Debug\net5.0\SchoolApplication.AssemblyInfo.cs
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\obj\Debug\net5.0\SchoolApplication.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\obj\Debug\net5.0\SchoolApplication.dll
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\obj\Debug\net5.0\ref\SchoolApplication.dll
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\obj\Debug\net5.0\SchoolApplication.pdb
+E:\My Projects\DotNet\SchoolApplication\SchoolApplication\obj\Debug\net5.0\SchoolApplication.genruntimeconfig.cache

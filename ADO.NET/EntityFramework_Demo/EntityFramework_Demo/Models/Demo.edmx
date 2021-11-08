@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ADO_DotNet_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="People">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="FName" Type="varchar" MaxLength="100" />
+          <Property Name="LName" Type="varchar" MaxLength="100" />
+          <Property Name="DName" Type="varchar" MaxLength="100" />
+          <Property Name="B_IsDeleted" Type="bit" />
+        </EntityType>
+        <EntityType Name="standardList">
+          <Key>
+            <PropertyRef Name="StandardID" />
+          </Key>
+          <Property Name="StandardID" Type="int" Nullable="false" />
+          <Property Name="StandardName" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="studentList">
+          <Key>
+            <PropertyRef Name="StudentID" />
+          </Key>
+          <Property Name="StudentID" Type="int" Nullable="false" />
+          <Property Name="StudentName" Type="varchar" MaxLength="100" />
+          <Property Name="StandardID" Type="int" />
+        </EntityType>
+        <EntityType Name="tbl_Hobies">
+          <Key>
+            <PropertyRef Name="PID" />
+          </Key>
+          <Property Name="PID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UID" Type="int" />
+          <Property Name="Hoby" Type="varchar" MaxLength="500" />
+        </EntityType>
+        <Function Name="prc_GetData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="prc_GetPeople" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="prc_GetPeopleByDepartment" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="DName" Type="varchar" Mode="In" />
+          <Parameter Name="lastName" Type="varchar" Mode="In" />
+          <Parameter Name="id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="prc_InsertData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID" Type="int" Mode="In" />
+          <Parameter Name="First_Name" Type="varchar" Mode="In" />
+          <Parameter Name="Last_Name" Type="varchar" Mode="In" />
+          <Parameter Name="Department" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="prc_InsertHobbies" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="prc_UpdateData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="LName" Type="varchar" Mode="In" />
+          <Parameter Name="DName" Type="varchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="ADO_DotNet_DBModelStoreContainer">
+          <EntitySet Name="People" EntityType="Self.People" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="standardList" EntityType="Self.standardList" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="studentList" EntityType="Self.studentList" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_Hobies" EntityType="Self.tbl_Hobies" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ADO_DotNet_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Person">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="FName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="LName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="DName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="B_IsDeleted" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="tbl_Hobies">
+          <Key>
+            <PropertyRef Name="PID" />
+          </Key>
+          <Property Name="PID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UID" Type="Int32" />
+          <Property Name="Hoby" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="ADO_DotNet_DBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="People" EntityType="Self.Person" />
+          <EntitySet Name="tbl_Hobies" EntityType="Self.tbl_Hobies" />
+          <FunctionImport Name="prc_GetData" ReturnType="Collection(ADO_DotNet_DBModel.prc_GetData_Result)" />
+          <FunctionImport Name="prc_GetPeople" ReturnType="Collection(ADO_DotNet_DBModel.prc_GetPeople_Result)" />
+          <FunctionImport Name="prc_GetPeopleByDepartment" ReturnType="Collection(ADO_DotNet_DBModel.prc_GetPeopleByDepartment_Result)">
+            <Parameter Name="DName" Mode="In" Type="String" />
+            <Parameter Name="lastName" Mode="In" Type="String" />
+            <Parameter Name="id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="prc_InsertData">
+            <Parameter Name="ID" Mode="In" Type="Int32" />
+            <Parameter Name="First_Name" Mode="In" Type="String" />
+            <Parameter Name="Last_Name" Mode="In" Type="String" />
+            <Parameter Name="Department" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="prc_InsertHobbies" />
+          <FunctionImport Name="prc_UpdateData">
+            <Parameter Name="LName" Mode="In" Type="String" />
+            <Parameter Name="DName" Mode="In" Type="String" />
+          </FunctionImport>
+          <EntitySet Name="standardLists" EntityType="ADO_DotNet_DBModel.standardList" />
+          <EntitySet Name="studentLists" EntityType="ADO_DotNet_DBModel.studentList" />
+        </EntityContainer>
+        <ComplexType Name="prc_GetData_Result">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="FName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="LName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="DName" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="prc_GetPeople_Result">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="FName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="LName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="DName" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="prc_GetPeopleByDepartment_Result">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="FName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="LName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="DName" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <EntityType Name="standardList">
+          <Key>
+            <PropertyRef Name="StandardID" />
+          </Key>
+          <Property Name="StandardID" Type="Int32" Nullable="false" />
+          <Property Name="StandardName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="studentList">
+          <Key>
+            <PropertyRef Name="StudentID" />
+          </Key>
+          <Property Name="StudentID" Type="Int32" Nullable="false" />
+          <Property Name="StudentName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="StandardID" Type="Int32" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ADO_DotNet_DBModelStoreContainer" CdmEntityContainer="ADO_DotNet_DBEntities">
+          <EntitySetMapping Name="People">
+            <EntityTypeMapping TypeName="ADO_DotNet_DBModel.Person">
+              <MappingFragment StoreEntitySet="People">
+                <ScalarProperty Name="B_IsDeleted" ColumnName="B_IsDeleted" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FName" ColumnName="FName" />
+                <ScalarProperty Name="LName" ColumnName="LName" />
+                <ScalarProperty Name="DName" ColumnName="DName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_Hobies">
+            <EntityTypeMapping TypeName="ADO_DotNet_DBModel.tbl_Hobies">
+              <MappingFragment StoreEntitySet="tbl_Hobies">
+                <ScalarProperty Name="PID" ColumnName="PID" />
+                <ScalarProperty Name="UID" ColumnName="UID" />
+                <ScalarProperty Name="Hoby" ColumnName="Hoby" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="prc_GetData" FunctionName="ADO_DotNet_DBModel.Store.prc_GetData">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ADO_DotNet_DBModel.prc_GetData_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FName" ColumnName="FName" />
+                <ScalarProperty Name="LName" ColumnName="LName" />
+                <ScalarProperty Name="DName" ColumnName="DName" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="prc_GetPeople" FunctionName="ADO_DotNet_DBModel.Store.prc_GetPeople">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ADO_DotNet_DBModel.prc_GetPeople_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FName" ColumnName="FName" />
+                <ScalarProperty Name="LName" ColumnName="LName" />
+                <ScalarProperty Name="DName" ColumnName="DName" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="prc_GetPeopleByDepartment" FunctionName="ADO_DotNet_DBModel.Store.prc_GetPeopleByDepartment">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ADO_DotNet_DBModel.prc_GetPeopleByDepartment_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FName" ColumnName="FName" />
+                <ScalarProperty Name="LName" ColumnName="LName" />
+                <ScalarProperty Name="DName" ColumnName="DName" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="prc_InsertData" FunctionName="ADO_DotNet_DBModel.Store.prc_InsertData" />
+          <FunctionImportMapping FunctionImportName="prc_InsertHobbies" FunctionName="ADO_DotNet_DBModel.Store.prc_InsertHobbies" />
+          <FunctionImportMapping FunctionImportName="prc_UpdateData" FunctionName="ADO_DotNet_DBModel.Store.prc_UpdateData" />
+          <EntitySetMapping Name="standardLists">
+            <EntityTypeMapping TypeName="ADO_DotNet_DBModel.standardList">
+              <MappingFragment StoreEntitySet="standardList">
+                <ScalarProperty Name="StandardName" ColumnName="StandardName" />
+                <ScalarProperty Name="StandardID" ColumnName="StandardID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="studentLists">
+            <EntityTypeMapping TypeName="ADO_DotNet_DBModel.studentList">
+              <MappingFragment StoreEntitySet="studentList">
+                <ScalarProperty Name="StandardID" ColumnName="StandardID" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,80 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration Form for Booking Doctor</title>
+</head>
+<body>
+    <section>
+        <h2>
+            Please fill your details
+        </h2>
+        <fieldset>
+
+
+                 <p>
+                     <label for="fname">First Name</label>
+                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                 </p>
+            <p>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </p>
+            <p>
+                <label for="mob">Mobile Number</label>
+                <input type="text" id="mob" name="mobnumber" placeholder="Your mobile No">
+            </p>
+
+            <p>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+            </p>
+
+            <p>Sex</p>
+            <input type="radio" id="male" name="a" value="Male">
+            <label for="male">Male</label><br>
+            
+            <input type="radio" id="female" name="a" value="Female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="a" value="Other">
+            <label for="other">Other</label>
+
+
+            
+            <p>
+                <label for="doctor">
+                    <span>Specialization:</span>
+                </label>
+                <select id="diseases" name="patientID">
+                    <option value="Ayurveda">Ayurveda</option>
+                    <option value="Dental">Dental</option>
+                    <option value="Specialist">Eye Specialist</option>
+                    <option value="General Surgery">General Surgery</option>
+                    <option value="Urology">Urology</option>
+                    <option value="Cardiology">Cardiology</option>
+                </select>
+            </p>
+            <p>
+                <label for="number">
+                    <span>Registration number:</span>
+                    <strong><abbr title="required"></abbr></strong>
+                </label>
+                <input type="tel" id="number" name="cardnumber">
+            </p>
+            <p>
+                <label for="date">
+                    <span>Date:</span>
+                    <strong><abbr title="required"></abbr></strong>
+                    <em>formatted as mm/dd/yyyy</em>
+                </label>
+                <input type="date" id="date" name="expiration"><br />
+                <br />
+                <label>
+                    <input type="checkbox" name="remember"> Remember me
+                </label><br />
+                <br />
+                <button type="submit">Submit</button>
+            </p>
+</section>
+    </fieldset>
+</body>
+</html>

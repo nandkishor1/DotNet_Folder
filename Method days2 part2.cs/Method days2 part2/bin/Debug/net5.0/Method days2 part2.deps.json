@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Method days2 part2/1.0.0": {
+        "runtime": {
+          "Method days2 part2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Method days2 part2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

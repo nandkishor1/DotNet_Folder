@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\EnumProject\EnumProject\bin\Debug\net5.0\EnumProject.exe
+E:\My Projects\DotNet\EnumProject\EnumProject\bin\Debug\net5.0\EnumProject.deps.json
+E:\My Projects\DotNet\EnumProject\EnumProject\bin\Debug\net5.0\EnumProject.runtimeconfig.json
+E:\My Projects\DotNet\EnumProject\EnumProject\bin\Debug\net5.0\EnumProject.runtimeconfig.dev.json
+E:\My Projects\DotNet\EnumProject\EnumProject\bin\Debug\net5.0\EnumProject.dll
+E:\My Projects\DotNet\EnumProject\EnumProject\bin\Debug\net5.0\ref\EnumProject.dll
+E:\My Projects\DotNet\EnumProject\EnumProject\bin\Debug\net5.0\EnumProject.pdb
+E:\My Projects\DotNet\EnumProject\EnumProject\obj\Debug\net5.0\EnumProject.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\EnumProject\EnumProject\obj\Debug\net5.0\EnumProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\EnumProject\EnumProject\obj\Debug\net5.0\EnumProject.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\EnumProject\EnumProject\obj\Debug\net5.0\EnumProject.AssemblyInfo.cs
+E:\My Projects\DotNet\EnumProject\EnumProject\obj\Debug\net5.0\EnumProject.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\EnumProject\EnumProject\obj\Debug\net5.0\EnumProject.dll
+E:\My Projects\DotNet\EnumProject\EnumProject\obj\Debug\net5.0\ref\EnumProject.dll
+E:\My Projects\DotNet\EnumProject\EnumProject\obj\Debug\net5.0\EnumProject.pdb
+E:\My Projects\DotNet\EnumProject\EnumProject\obj\Debug\net5.0\EnumProject.genruntimeconfig.cache

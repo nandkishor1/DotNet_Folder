@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\bin\Debug\net5.0\DelegatesProject.exe
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\bin\Debug\net5.0\DelegatesProject.deps.json
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\bin\Debug\net5.0\DelegatesProject.runtimeconfig.json
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\bin\Debug\net5.0\DelegatesProject.runtimeconfig.dev.json
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\bin\Debug\net5.0\DelegatesProject.dll
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\bin\Debug\net5.0\ref\DelegatesProject.dll
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\bin\Debug\net5.0\DelegatesProject.pdb
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\obj\Debug\net5.0\DelegatesProject.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\obj\Debug\net5.0\DelegatesProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\obj\Debug\net5.0\DelegatesProject.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\obj\Debug\net5.0\DelegatesProject.AssemblyInfo.cs
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\obj\Debug\net5.0\DelegatesProject.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\obj\Debug\net5.0\DelegatesProject.dll
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\obj\Debug\net5.0\ref\DelegatesProject.dll
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\obj\Debug\net5.0\DelegatesProject.pdb
+E:\My Projects\DotNet\DelegatesProject\DelegatesProject\obj\Debug\net5.0\DelegatesProject.genruntimeconfig.cache

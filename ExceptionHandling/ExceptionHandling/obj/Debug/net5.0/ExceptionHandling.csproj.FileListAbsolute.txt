@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.exe
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.deps.json
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.runtimeconfig.json
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.runtimeconfig.dev.json
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.dll
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\bin\Debug\net5.0\ref\ExceptionHandling.dll
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.pdb
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.AssemblyInfo.cs
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.dll
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\obj\Debug\net5.0\ref\ExceptionHandling.dll
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.pdb
+E:\My Projects\DotNet\ExceptionHandling\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.genruntimeconfig.cache

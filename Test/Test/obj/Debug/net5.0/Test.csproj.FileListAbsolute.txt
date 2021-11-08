@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\Test\Test\bin\Debug\net5.0\Test.exe
+E:\My Projects\DotNet\Test\Test\bin\Debug\net5.0\Test.deps.json
+E:\My Projects\DotNet\Test\Test\bin\Debug\net5.0\Test.runtimeconfig.json
+E:\My Projects\DotNet\Test\Test\bin\Debug\net5.0\Test.runtimeconfig.dev.json
+E:\My Projects\DotNet\Test\Test\bin\Debug\net5.0\Test.dll
+E:\My Projects\DotNet\Test\Test\bin\Debug\net5.0\ref\Test.dll
+E:\My Projects\DotNet\Test\Test\bin\Debug\net5.0\Test.pdb
+E:\My Projects\DotNet\Test\Test\obj\Debug\net5.0\Test.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\Test\Test\obj\Debug\net5.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\Test\Test\obj\Debug\net5.0\Test.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\Test\Test\obj\Debug\net5.0\Test.AssemblyInfo.cs
+E:\My Projects\DotNet\Test\Test\obj\Debug\net5.0\Test.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\Test\Test\obj\Debug\net5.0\Test.dll
+E:\My Projects\DotNet\Test\Test\obj\Debug\net5.0\ref\Test.dll
+E:\My Projects\DotNet\Test\Test\obj\Debug\net5.0\Test.pdb
+E:\My Projects\DotNet\Test\Test\obj\Debug\net5.0\Test.genruntimeconfig.cache

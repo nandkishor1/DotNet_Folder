@@ -1,0 +1,16 @@
+E:\My Projects\DotNet\class days3.cs\class days3.cs\bin\Debug\net5.0\class days3.cs.exe
+E:\My Projects\DotNet\class days3.cs\class days3.cs\bin\Debug\net5.0\class days3.cs.deps.json
+E:\My Projects\DotNet\class days3.cs\class days3.cs\bin\Debug\net5.0\class days3.cs.runtimeconfig.json
+E:\My Projects\DotNet\class days3.cs\class days3.cs\bin\Debug\net5.0\class days3.cs.runtimeconfig.dev.json
+E:\My Projects\DotNet\class days3.cs\class days3.cs\bin\Debug\net5.0\class days3.cs.dll
+E:\My Projects\DotNet\class days3.cs\class days3.cs\bin\Debug\net5.0\ref\class days3.cs.dll
+E:\My Projects\DotNet\class days3.cs\class days3.cs\bin\Debug\net5.0\class days3.cs.pdb
+E:\My Projects\DotNet\class days3.cs\class days3.cs\obj\Debug\net5.0\class days3.cs.csproj.AssemblyReference.cache
+E:\My Projects\DotNet\class days3.cs\class days3.cs\obj\Debug\net5.0\class days3.cs.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\DotNet\class days3.cs\class days3.cs\obj\Debug\net5.0\class days3.cs.AssemblyInfoInputs.cache
+E:\My Projects\DotNet\class days3.cs\class days3.cs\obj\Debug\net5.0\class days3.cs.AssemblyInfo.cs
+E:\My Projects\DotNet\class days3.cs\class days3.cs\obj\Debug\net5.0\class days3.cs.csproj.CoreCompileInputs.cache
+E:\My Projects\DotNet\class days3.cs\class days3.cs\obj\Debug\net5.0\class days3.cs.dll
+E:\My Projects\DotNet\class days3.cs\class days3.cs\obj\Debug\net5.0\ref\class days3.cs.dll
+E:\My Projects\DotNet\class days3.cs\class days3.cs\obj\Debug\net5.0\class days3.cs.pdb
+E:\My Projects\DotNet\class days3.cs\class days3.cs\obj\Debug\net5.0\class days3.cs.genruntimeconfig.cache
